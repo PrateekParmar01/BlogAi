@@ -1,6 +1,6 @@
 # Blog Ai
 
-![Blog Ai Logo](link-to-your-logo.png) <!-- Add your project's logo here -->
+![Blog Ai Logo]([link-to-your-logo.png](https://images.squarespace-cdn.com/content/v1/62ec2bc76a27db7b37a2b32f/abfb4587-35b3-411f-8603-7e24344b95fc/ai-blog-avatar-min.png)) <!-- Add your project's logo here -->
 
 Blog Ai is a dynamic blog-making project utilizing OpenAI’s language model for AI-powered blog writing assistance. It aims to enhance productivity and generate high-quality content efficiently.
 
