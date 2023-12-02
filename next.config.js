@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-      domains: ['firebasestorage.googleapis.com', 'coinpayments.net'],
+      domains: ['firebasestorage.googleapis.com', 'coinpayments.net','images.unsplash.com','plus.unsplash.com','media.istockphoto.com'],
       minimumCacheTTL: 1500000,
     },
     compiler: {

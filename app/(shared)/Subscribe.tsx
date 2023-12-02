@@ -16,10 +16,10 @@ const Subscribe = () => {
   if (user === "fGPOXAUgOBPKNeQ0hZHGuXCEEkj2") {
     return (
       <div className="text-center bg-wh-10 px-5 py-10">
-        <Link  href={`${process.env.NEXT_PUBLIC_URL}/post/`}>
-        <button className="bg-accent-red text-wh-10 font-semibold w-5/6 min-w-[100px] py-2 px-5 mt-3">
-          ADD NEW BLOG
-        </button>
+        <Link href={`/post/`}>
+          <button className="bg-accent-red text-wh-10 font-semibold w-5/6 min-w-[100px] py-2 px-5 mt-3">
+            ADD NEW BLOG
+          </button>
         </Link>
       </div>
     );

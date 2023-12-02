@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import {
   signUpUserWithEmailAndPassword,
   getCurrentUser,
-} from "./../firebase/auth.js";
+} from "../firebase/auth.js";
 
 function SignUpForm() {
   const router = useRouter();

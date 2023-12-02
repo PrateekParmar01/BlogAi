@@ -28,8 +28,8 @@ export async function POST(request: Request, response: any) {
           },
         ],
       });
-
-    // response.revalidate("/api/posts")
+      // response.revalidate("/api/posts")
+      console.log(aiResponse)
     return NextResponse.json(
       {
         content: aiResponse.data.choices[0].message?.content,
@@ -37,7 +37,7 @@ export async function POST(request: Request, response: any) {
       { status: 200 }
     );
   } catch (error) {
-    console.error("request error");
+    console.error(error);
     NextResponse.json({ error: "error updating post" }, { status: 500 });
   }
 }

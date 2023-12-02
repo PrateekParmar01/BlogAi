@@ -27,25 +27,25 @@ const Card = ({
     <div className={className}>
       <Link
         className="basis-full hover:opacity-70"
-        href={`${process.env.NEXT_PUBLIC_URL}/post/${post?.id}`}
+        href={`/post/${post?.id}`}
         // href="/"
       >
         <div className={`relative w-auto mb-3 ${imageHeight}`}>
-        <Image
-          fill
-          alt="tech"
-          // placeholder="blur"
-          src={post?.image}
-          sizes="(max-width: 480px) 100vw,
+          <Image
+            fill
+            alt="tech"
+            // placeholder="blur"
+            src={post?.image}
+            sizes="(max-width: 480px) 100vw,
                 (max-width: 768px) 75vw,
                 (max-width: 1060px) 50vw,
                 33vw"
-          style={{ objectFit: "cover" }}
-        />
+            style={{ objectFit: "cover" }}
+          />
         </div>
       </Link>
       <div className="basis-full">
-        <Link href={`${process.env.NEXT_PUBLIC_URL}/post/${post?.id}`}>
+        <Link href={`/post/${post?.id}`}>
           <h4
             className={`font-bold hover:text-accent-green
                 ${isSmallCard ? "text-base" : "text-lg"}
